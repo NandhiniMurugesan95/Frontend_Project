@@ -1,0 +1,77 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+
+
+
+
+	<center> 
+		<div>
+		
+			<h1 id="text-color-hair" class="text-5xl font-extrabold">Q beauty Spa</h1>
+			<h2 id="text-color-hair" class="text-3xl font-bold">Welcome</h2>
+			<p>Please enter your details to sign in.</p>
+   
+
+		<form name="myform" method="post" action="C:\Users\LENOVO\Desktop\hejex\beauty saloon\button.html" onsubmit="validateform()">
+      
+	  <div>
+        <label> User ID</label>
+        <input 
+          type="text" 
+          name="username" 
+          placeholder="Enter your user Id" 
+          required>
+       </div><br>
+
+      <div>
+        <label>Password</label>
+        
+          <input 
+            type="password"
+            name="password" 
+            placeholder="Enter your password" 
+            required
+          >
+        </div><br>
+
+
+      <div >
+        <label class="m-50">
+          <input type="checkbox" id="rememberMe">Yes, I want to receive offers and updates from trusted Unilever brands via Email and SMS, Whatsapp and online advertising tailored to my interests and preferences * 
+        </label>
+        <a href="#" class="forgot-password">Forgot password?</a>
+      </div><br>
+
+      <button  type="submit">Sign In</button>
+    </form>
+	</center>
+  </div>
+
+ <script>
+	function validateform()
+	{
+    var name = document.myform.username.value;
+    var password = document.myform.password.value;
+  
+     if (username === "" || password === "") {
+        alert("Please fill all fields.");
+        return false;
+    }
+
+    return true;
+}
+</script>
+	</script>
+
+</body>
+</html>

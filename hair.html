@@ -1,0 +1,402 @@
+<html>
+	<head>
+		<title>Q beauty saloon</title>
+		
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+		<link rel="stylesheet" href="style.css"></link>
+		 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+	
+	</head>
+	<body >
+		<nav  id="bg-color-nav" class="shadow-md shadow-black h-28  ">
+
+       <div class="max-w-7xl mx-auto pl-15  flex items-center gap-5">
+
+        
+             <div  class=" object-cover rounded-lg"> <img class="w-[250px] h-[170] "src="./images/home/logo.png"></div>
+        
+
+        
+        <ul class="hidden md:flex items-center space-x-8 text-gray-600 font-medium ml-20 text-amber-100">
+
+            <li>
+                <a "Index.html" class="hover:text-blue-600 text-white text-xl">
+                    Home
+                </a>
+            </li>
+
+           
+
+            <li>
+				<div class="relative">
+					 <input type="checkbox" id="menu-toggle" class="peer hidden" />
+					<label for="menu-toggle" class="cursor-pointer hover:text-blue-600 text-white  text-xl">
+					Services
+					</label>
+			
+		
+					<div class="absolute left-0 mt-2 w-48 bg-white text-gray-800 rounded-xl shadow-lg border border-gray-100 py-2 z-50 hidden peer-checked:block">
+					  <a href="makeup.html" class="block px-4 py-2 hover:bg-purple-50 hover:text-purple-700 transition-colors">Makeup</a>
+					  <a href="skin.html" class="block px-4 py-2 hover:bg-purple-50 hover:text-purple-700 transition-colors">Skin</a>
+					  <a href="hair.html" class="block px-4 py-2 hover:bg-purple-50 hover:text-purple-700 transition-colors">Hair</a>
+					  <a href="hand&feet.html" class="block px-4 py-2 hover:bg-purple-50 hover:text-purple-700 transition-colors">Hand & feet</a>
+					</div>
+				</div>
+                
+            </li>
+			
+			<li>
+				<div class="relative">
+					 <input type="checkbox" id="menu-toggle1" class="peer hidden" />
+					<label for="menu-toggle1" class="cursor-pointer hover:text-blue-600 text-white  text-xl">
+						Others
+					</label>
+			
+		
+					<div class="absolute left-0 mt-2 w-48 bg-white text-gray-800 rounded-xl shadow-lg border border-gray-100 py-2 z-50 hidden peer-checked:block">
+					  <a href="About us.html" class="block px-4 py-2 hover:bg-purple-50 hover:text-purple-700 ">About us</a>
+					  <a href="franchise.html" class="block px-4 py-2 hover:bg-purple-50 hover:text-purple-700 transition-colors">Franchise</a>
+					   <a href="membership.html" class="block px-4 py-2 hover:bg-purple-50 hover:text-purple-700 transition-colors">Membership</a>
+					   
+					</div>
+				</div>
+			</li>
+
+            <li>
+                <a href="Academy.html" class="hover:text-blue-600 text-white text-xl">
+                    Academy
+                </a>
+            </li>
+			
+			<li>
+                <a href="contact.html" class="hover:text-blue-600 text-white text-xl">
+                    Contact 
+                </a>
+            </li>
+			
+            <li>
+				<a id="nav-color" class=" bg-amber-100 text-black text-sm  border-1 border-solid rounded-2xl  p-2 " href="button.html">Book an appointment</a>
+               
+            </li>
+			<li>
+				<a href="signin.html" id="amber-user-icon" title="Sign In">account_circle</a>
+    
+             </li>
+
+        </ul>
+
+       
+        <label for="menuToggle"
+               class="md:hidden flex flex-col space-y-1.5 cursor-pointer ">
+
+            <span class="block w-6 h-0.5 bg-amber-100"></span>
+            <span class="block w-6 h-0.5 bg-amber-100"></span>
+            <span class="block w-6 h-0.5 bg-amber-100"></span>
+
+        </label>
+
+    </div>
+
+   
+    <input
+        type="checkbox"
+        id="menuToggle"
+        class="hidden peer relative" >
+
+ 
+    <div class="hidden peer-checked:block md:hidden bg-white mx-full md:px-4 pb-3 absolute z-80 -mt-17 w-full h-full">
+
+        <ul class="flex flex-col bg-white text-black space-y-4 text-amber-100 font-medium px-5">
+
+            <li>
+                <a href="Index.html" class="block">
+                    Home
+                </a>
+            </li>
+
+            <li>
+
+                <input type="checkbox" id="serviceToggle"class="hidden peer">
+
+                <label
+                    for="serviceToggle"
+                    class="flex justify-between items-center cursor-pointer">
+
+                    <span>Services</span>
+
+                    <span>▼</span>
+
+                </label>
+
+                <ul class="hidden peer-checked:block pl-5 mt-2 space-y-2">
+
+                    <li>
+                        <a href="makeup.html" class="block">
+                            Makeup
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="hair.html" class="block">
+                             Hair
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="skin.html" class="block">
+                             Skin
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="hand&feet.html" class="block">
+                             Hand&Feet
+                        </a>
+                    </li>
+
+                </ul>
+
+            </li>
+			
+			 <li>
+
+                <input type="checkbox" id="serviceToggle1"class="hidden peer">
+
+                <label
+                    for="serviceToggle1"
+                    class="flex justify-between items-center cursor-pointer">
+
+                    <span>Others</span>
+
+                    <span>▼</span>
+
+                </label>
+
+                <ul class="hidden  peer-checked:block pl-5 mt-2 space-y-2">
+
+                    <li>
+                        <a href="About us.html" class="block">
+                           About us
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="franchise.html" class="block">
+                            Franchise
+                        </a>
+                    </li>
+					<li>
+                        <a href="membership.html" class="block">
+                           Membership
+                        </a>
+                    </li>
+
+                </ul>
+
+            </li>
+
+
+            <li>
+                <a href="Academy.html" class="block">
+                    Academy
+                </a>
+            </li>
+			
+			<li>
+                <a href="contact.html" class="block">
+                    contact
+                </a>
+            </li>
+			
+			<li>
+				<a class=" bg-amber-100 text-black text-xl  border-1 border-solid rounded-2xl  p-2 " href="C:\Users\LENOVO\Desktop\hejex\beauty saloon\button.html">Book an appointment</a>
+               
+            </li>
+			<li>
+				<a href="signin.html" id="amber-user-icon" title="Sign In">account_circle</a>
+    
+             </li>
+			
+        </ul>
+
+    </div>
+
+</nav><br><br>
+		
+		<!------image-----!>
+		
+		<section>
+		
+		<div><img class="w-full h-[400px] object-cover  relative" src="./images/hair/hair.jpg">
+		
+		</div>
+		
+		</section><br><br>	
+		
+		
+		
+		
+		<!------hair cuts----!>
+		<section class=" text-black p-2">
+		
+			<p id="text-color-hair" class="text-center text-4xl pt-4">Hair cuts & styling</p><br><br>
+				
+				<div class="grid grid-cols-1 lg:grid-cols-2 gap-10 m-5 lg:ml-20">
+					
+					<div class="text-xl text-justify p-10">Transform your look with the perfect haircut and styling. Whether it's layers, a bob, or a bold new style, our experts ensure your hair complements your face shape and personality.
+						Classic Hair Cut: Rs.450 (Rs.400 for Members)<br><br>
+						
+					  <a id="button-color" href="button.html"  class=" bg-black text-white text-xl font-bold border-1 border-solid rounded-2xl w-[200px] p-2" type="button">Get now</a> 
+					</div>
+						
+					<div class="lg:pb-5"><img class="mx-auto w-[500px] h-[300px] object-cover rounded-xl" src="./images/hair/hair cut.jpg"></div>
+			
+			</div>
+		</section><br><br>
+		
+		
+		<section class=" text-black p-2">
+		
+			<p id="text-color-hair" class="text-center text-4xl">Hair colouring & highlights</p><br><br>
+				
+				<div class="grid sm:grid-cols-1 lg:grid-cols-2 gap-10 m-5 lg:ml-20">
+				
+					<div class="text-xl text-justify p-10">Add vibrancy to your hair with rich, chemical-free colours. Choose from global colouring, streaks, block colours, or creative highlights for a fresh, stunning appearance.
+															Root Touch Up: Rs.1000 (Rs.900 for Members)<br><br>
+															
+					<a id="button-color" href="button.html"  class=" bg-black text-white text-xl font-bold border-1 border-solid rounded-2xl w-[200px] p-2" type="button">Get now</a> 
+					</div>
+						
+					<div><img class="mx-auto w-[500px] h-[300px] object-cover rounded-xl" src="./images/hair/hair color.jpg"></div><br>
+			
+			</div>
+		</section><br><br>
+		
+		<section class=" text-black p-2">
+		
+			<p id="text-color-hair" class="text-center text-4xl">Hair Spa</p><br><br>
+			
+				<div class="grid sm:grid-cols-1 lg:grid-cols-2 gap-10 m-5 lg:ml-20">
+				
+					<div class="text-xl text-justify p-10">Pamper your hair with deep nourishment and repair. Naturals Hair Spa enhances softness, shine, and overall hair health, leaving you feeling refreshed.
+															Moisturizing Hair Spa: Rs.800 - Rs.900 (Rs.700 - Rs.800 for Members)<br><br>
+															
+					<a id="button-color" href="button.html" class=" bg-black text-white text-xl font-bold border-1 border-solid rounded-2xl w-[200px] p-2" type="button">Get now</a> 										
+					</div>
+						
+					<div><img class="mx-auto w-[500px] h-[300px] object-cover rounded-xl" src="./images/hair/hair spa.jpg"></div>
+			
+			</div>
+		</section><br><br>
+		
+		<section class="text-black p-2">
+		
+			<p id="text-color-hair" class="text-center text-4xl">Keratin Service</p><br><br>
+			
+				<div class="grid sm:grid-cols-1 lg:grid-cols-2 gap-10 m-5 lg:ml-20">
+				
+					<div class="text-xl text-justify p-10">Repair and restore damaged hair with our keratin treatments. Achieve voluminous, smooth, and healthier-looking hair with long-lasting results.
+									Prices start from Rs.5000<br><br>
+				
+					<a id="button-color" href="button.html" class=" bg-black text-white text-xl font-bold border-1 border-solid rounded-2xl w-[200px] p-2" type="button">Get now</a> 					
+				</div>
+						
+					<div><img class="mx-auto w-[500px] h-[300px] object-cover rounded-xl" src="./images/hair/keratin.jpg"></div</div>
+		</section><br><br>
+		
+		<!-- Floating Membership Mini Sticky Banner -->
+<div id="miniMembershipBanner" class="fixed bottom-5 right-5 z-50 transition-all duration-300 transform">
+    
+    <!-- Outer Card -->
+    <div id="bg-color-nav" class="relative flex items-center gap-4 border-2 border-[#F1E6C8] text-white p-4 pr-10 rounded-2xl shadow-2xl max-w-sm">
+        
+        <!-- Close Button (X) -->
+        <button onclick="document.getElementById('miniMembershipBanner').classList.add('hidden')" 
+                type="button" 
+                class="absolute top-2 right-2 text-gray-400 hover:text-white text-xs p-1">
+            ✕
+        </button>
+
+        <!-- Icon / Crown -->
+        <div class="w-12 h-12 rounded-xl bg-[#F1E6C8] text-[#1A102F] flex items-center justify-center text-2xl font-bold shrink-0 shadow-md">
+            👑
+        </div>
+
+        <!-- Text Content -->
+        <div class="flex-1">
+            <span class="inline-block bg-[#F1E6C8] text-[#1A102F] text-[10px] font-bold px-2 py-0.5 rounded-full mb-1">
+                VIP OFFER
+            </span>
+            <h4 class="text-sm font-bold leading-tight">Get Q Membership</h4>
+            <p class="text-xs text-gray-300 mt-0.5">Save up to <strong>25% OFF</strong> on all services!</p>
+        </div>
+
+        <!-- Button -->
+        <a href="membership.html" class="bg-[#F1E6C8] hover:bg-[#E5D6AD] text-[#1A102F] text-xs font-bold px-3 py-2 rounded-xl border border-[#D8C79D] transition duration-200 shrink-0 text-center">
+            Join Now
+        </a>
+
+    </div>
+</div>
+		
+		
+					<!----footer----!>
+	<section  class="grid grid-cols-2 lg:grid-cols-4 gap-10 bg-purple-100 p-4 ">
+			
+			<div class="lg:pl-5">
+				
+				<p class="text-xl font-bold text-purple-700 ">Quick links</p>
+				
+				<p class="text-sm pt-5 ">Home<br>
+					<a href="About us.html">About Us</a><br>
+					<a href="contact.html" >Contact Us</a><br>
+					<a href="franchise.html">Franchise Opportunities</a><br>
+					Blogs<br>
+					Privacy Policy<br>
+					Terms and Condition<br>
+					Shipping Policy<br>
+					Cancellation and Refund Policy</p>
+			</div>
+			
+			<div>
+				<p class="text-xl font-bold text-purple-700">Our services</p>
+				
+				<p class="text-sm pt-5"><a href="hair.html">Haircare</a><br>
+										<a href="skin.html">Skin Care</a><br>
+										 <a href="makeup.html"> Makeup</a><br>
+										<a href="hand&feet.html"> hand&feet</a><br>
+										Locate us<br>
+										Contact Us<br></p>
+			</div>
+			
+			<div>
+				<p class="text-xl font-bold text-purple-700">Contact us</p>
+				
+				<p class="text-sm pt-5">
+				<img class="w-[30] h-[30]" src="./images/home/6844338.gif">Q beauty spa Pvt. Ltd<br>
+										No. 123 & 124, 3rd Floor,<br>
+										Ispahani Centre,<br>
+										Nungambakkam High Rd,<br>
+										Thousand Lights, Chennai,<br>
+										Tamil Nadu 600034<p>
+			</div>
+			
+			<div>
+				<p class="text-xl font-bold text-purple-700">Get in touch</p>
+				<div class="text-sm pt-5"><img class="w-[22px] h-[22px] rounded-full" src="./images/home/whtsapp.png"><p class="ml-5 -mt-6">+91 99006 78954</p></div><br><br><br>
+				<div class="ml-5 -mt-10 text-xl">care@Q.in</div><br>
+			
+				<div><img class="w-[40] h-[40] object-cover" src="./images/home/insta.png"><br>
+					 <img class="w-[40] h-[40] object-cover" src="./images/home/youtube.png"><br>
+					 <img class="w-[40] h-[40] object-cover" src="./images/home/tiwitter.png">
+				</div>
+			</div>										
+		
+		
+	</section>
+	
+		
+	</body>
+</html>

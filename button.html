@@ -1,0 +1,351 @@
+<html>
+	<head>
+		<title>Q beauty saloon</title>
+		
+		
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+		<link rel="stylesheet" href="style.css"></link>
+		 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+	
+	</head>
+	<body>
+	<nav  id="bg-color-nav" class="shadow-md shadow-black h-28  ">
+
+       <div class="max-w-8xl mx-auto pl-15  flex items-center gap-5">
+
+        
+             <div  class=" object-cover rounded-lg"> <img class="w-[250px] h-[170] "src="./images/home/logo.png"></div>
+        
+
+        
+        <ul class="hidden md:flex items-center space-x-8 text-gray-600 font-medium ml-20 text-amber-100">
+
+            <li>
+                <a href="Index.html" class="hover:text-blue-600 text-white text-xl">
+                    Home
+                </a>
+            </li>
+
+            <li>
+
+                <div class="relative">
+					 <input type="checkbox" id="menu-toggle" class="peer hidden" />
+					<label for="menu-toggle" class="cursor-pointer hover:text-blue-600 text-white  text-xl">
+					Services
+					</label>
+			
+		
+					<div class="absolute left-0 mt-2 w-48 bg-white text-gray-800 rounded-xl shadow-lg border border-gray-100 py-2 z-50 hidden peer-checked:block">
+					  <a href="makeup.html" class="block px-4 py-2 hover:bg-purple-50 hover:text-purple-700 transition-colors">Makeup</a>
+					  <a href="skin.html" class="block px-4 py-2 hover:bg-purple-50 hover:text-purple-700 transition-colors">Skin</a>
+					  <a href="hair.html" class="block px-4 py-2 hover:bg-purple-50 hover:text-purple-700 transition-colors">Hair</a>
+					  <a href="hand&feet.html" class="block px-4 py-2 hover:bg-purple-50 hover:text-purple-700 transition-colors">Hand & feet</a>
+					</div>
+				</div>
+
+            </li>
+			<li>
+				<div class="relative">
+					 <input type="checkbox" id="menu-toggle1" class="peer hidden" />
+					<label for="menu-toggle1" class="cursor-pointer hover:text-blue-600 text-white  text-xl">
+						Others
+					</label>
+			
+		
+					<div class="absolute left-0 mt-2 w-48 bg-white text-gray-800 rounded-xl shadow-lg border border-gray-100 py-2 z-50 hidden peer-checked:block">
+					  <a href="About us.html" class="block px-4 py-2 hover:bg-purple-50 hover:text-purple-700 ">About us</a>
+					  <a href="franchise.html" class="block px-4 py-2 hover:bg-purple-50 hover:text-purple-700 transition-colors">Franchise</a>
+					   <a href="membership.html" class="block px-4 py-2 hover:bg-purple-50 hover:text-purple-700 transition-colors">Membership</a>
+					   
+					</div>
+				</div>
+			</li>
+
+            <li>
+                <a href="Academy.html" class="hover:text-blue-600 text-white text-xl">
+                    Academy
+                </a>
+            </li>
+			
+			<li>
+                <a href="contact.html" class="hover:text-blue-600 text-white text-xl">
+                    Contact 
+                </a>
+            </li>
+			
+            <li>
+				<a id="nav-color" class=" bg-amber-100 text-black text-sm  border-1 border-solid rounded-2xl  p-2 " href="C:\Users\LENOVO\Desktop\hejex\beauty saloon\button.html">Book an appointment</a>
+               
+            </li>
+			<li>
+				<a href="signin.html" id="amber-user-icon" title="Sign In">account_circle</a>
+    
+             </li>
+
+        </ul>
+
+       
+        <label for="menuToggle"
+               class="md:hidden flex flex-col space-y-1.5 cursor-pointer ">
+
+            <span class="block w-6 h-0.5 bg-amber-100"></span>
+            <span class="block w-6 h-0.5 bg-amber-100"></span>
+            <span class="block w-6 h-0.5 bg-amber-100"></span>
+
+        </label>
+
+    </div>
+
+   
+    <input
+        type="checkbox"
+        id="menuToggle"
+        class="hidden peer relative" >
+
+ 
+    <div class="hidden peer-checked:block md:hidden bg-white mx-auto md:px-4 pb-3 absolute z-30 -mt-17 w-full h-full">
+
+        <ul class="flex flex-col space-y-4 text-black bg-white font-medium">
+
+            <li>
+                <a href="Index.html" class="block">
+                    Home
+                </a>
+            </li>
+
+            <li>
+
+                <input type="checkbox" id="serviceToggle"class="hidden peer">
+
+                <label
+                    for="serviceToggle"
+                    class="flex justify-between items-center cursor-pointer">
+
+                    <span>Services</span>
+
+                    <span>▼</span>
+
+                </label>
+
+                <ul class="hidden peer-checked:block pl-5 mt-2 space-y-2">
+
+                    <li>
+                        <a href="makeup.html" class="block">
+                            Makeup
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="hair.html" class="block">
+                             Hair
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="skin.html" class="block">
+                             Skin
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="hand&feet.html" class="block">
+                             Hand&Feet
+                        </a>
+                    </li>
+
+                </ul>
+
+            </li>
+			
+			 <li>
+
+                <input type="checkbox" id="serviceToggle1"class="hidden peer">
+
+                <label
+                    for="serviceToggle1"
+                    class="flex justify-between items-center cursor-pointer">
+
+                    <span>Others</span>
+
+                    <span>▼</span>
+
+                </label>
+
+                <ul class="hidden  peer-checked:block pl-5 mt-2 space-y-2">
+
+                    <li>
+                        <a href="About us.html" class="block">
+                           About us
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="franchise.html" class="block">
+                            Franchise
+                        </a>
+                    </li>
+					<li>
+                        <a href="membership.html" class="block">
+                           Membership
+                        </a>
+                    </li>
+
+                </ul>
+
+            </li>
+
+
+            <li>
+                <a href="Academy.html" class="block">
+                    Academy
+                </a>
+            </li>
+			
+			<li>
+                <a href="contact.html" class="block">
+                    contact
+                </a>
+            </li>
+			
+			<li>
+				<a class=" bg-amber-100 text-black text-xl  border-1 border-solid rounded-2xl  p-2 " href="button.html">Book an appointment</a>
+               
+            </li>
+			<li>
+				<a href="signin.html" id="amber-user-icon" title="Sign In">account_circle</a>
+    
+             </li>
+			
+        </ul>
+
+    </div>
+
+</nav><br>
+
+	  <!--------book an appointment----!>
+	<section class=" flex items-center justify-center p-4 my-6 bg-amber-50 -mt-5">
+		
+		<div class=" w-full max-w-xl p-6 md:p-10 rounded-2xl shadow-2xl border-1 border-amber-50 mt-5">
+            
+            <h2 class="serif-title text-2xl md:text-3xl font-bold text-center  mb-8 ">
+                Book an Appointment
+            </h2>
+
+            <form class="space-y-5">
+                <div>
+                    <input type="text" placeholder="name*" required
+                        class="w-full px-5 py-2.5 rounded-full bg-white text-gray-800 placeholder-gray-400 ">
+                </div>
+
+                <div>
+                    <input type="email" placeholder="Email*" required
+                        class="w-full px-5 py-2.5 rounded-full   bg-white text-gray-800 placeholder-gray-400">
+                </div>
+
+                <div>
+                    <input type="tel" placeholder="Mobile*" required
+                        class="w-full px-5 py-2.5 rounded-full bg-white text-gray-800 placeholder-gray-400">
+                </div>
+
+                <div>
+                    <select required
+                        class="w-full px-5 py-2.5 rounded-full   bg-white text-gray-600 ">
+                        <option >Select the state*</option>
+                        <option >Tamil Nadu</option>
+                        <option >Kerala</option>
+                    </select>
+                   
+                </div>
+
+                <div>
+                    <select required
+                        class="w-full px-5 py-2.5 rounded-full  bg-white text-gray-600 ">
+                        <option >Select branch*</option>
+                        <option >Chennai - Nungambakkam</option>
+                        <option >Chennai - Adyar</option>
+                    </select>
+                      
+                </div>
+
+                <div>
+                    <select required
+                        class="w-full px-5 py-2.5 rounded-full  bg-white text-gray-600 -2">
+                        <option >Select service*</option>
+                        <option >Facial & Bridal Makeup</option>
+                        <option >Hair Treatment</option>
+                        <option >Body Spa</option>
+                    </select>                      
+                </div><br>
+
+                <div class="pt-4">
+                    <button type="submit" id="button-color" 
+                        class="w-full text-white font-medium py-2.5 rounded-full shadow-lg  text-sm">
+                        Confirm Appointment
+                    </button>
+                </div>
+            </form>
+
+        </div>
+    </section>
+		
+		
+			
+			<!----footer----!>
+	<section  class="grid grid-cols-2 lg:grid-cols-4 gap-10 bg-purple-100 p-4 ">
+			
+			<div class="lg:pl-5">
+				
+				<p class="text-xl font-bold text-purple-700 ">Quick links</p>
+				
+				<p class="text-sm pt-5 ">Home<br>
+					<a href="About us.html">About Us</a><br>
+					<a href="contact.html" >Contact Us</a><br>
+					<a href="franchise.html">Franchise Opportunities</a><br>
+					Blogs<br>
+					Privacy Policy<br>
+					Terms and Condition<br>
+					Shipping Policy<br>
+					Cancellation and Refund Policy</p>
+			</div>
+			
+			<div>
+				<p class="text-xl font-bold text-purple-700">Our services</p>
+				
+				<p class="text-sm pt-5"><a href="hair.html">Haircare</a><br>
+										<a href="skin.html">Skin Care</a><br>
+										 <a href="makeup.html"> Makeup</a><br>
+										<a href="hand&feet.html"> hand&feet</a><br>
+										Locate us<br>
+										Contact Us<br></p>
+			</div>
+			
+			<div>
+				<p class="text-xl font-bold text-purple-700">Contact us</p>
+				
+				<p class="text-sm pt-5">
+				<img class="w-[30] h-[30]" src="./images/home/6844338.gif">Q beauty spa Pvt. Ltd<br>
+										No. 123 & 124, 3rd Floor,<br>
+										Ispahani Centre,<br>
+										Nungambakkam High Rd,<br>
+										Thousand Lights, Chennai,<br>
+										Tamil Nadu 600034<p>
+			</div>
+			
+			<div>
+				<p class="text-xl font-bold text-purple-700">Get in touch</p>
+				<div class="text-sm pt-5"><img class="w-[22px] h-[22px] rounded-full" src="./images/home/whtsapp.png"><p class="ml-5 -mt-6">+91 99006 78954</p></div><br><br><br>
+				<div class="ml-5 -mt-10 text-xl">care@Q.in</div><br>
+			
+				<div><img class="w-[40] h-[40] object-cover" src="./images/home/insta.png"><br>
+					 <img class="w-[40] h-[40] object-cover" src="./images/home/youtube.png"><br>
+					 <img class="w-[40] h-[40] object-cover" src="./images/home/tiwitter.png">
+				</div>
+			</div>										
+		
+		
+	</section>
+	
+  </body>
+</html>
